@@ -51,10 +51,10 @@ if (selectedQuiz) {
             q.question + "\n" + q.options.join("\n")
         );
 
-        // abhi sirf answer show kar raha hai (half logic)
+        
         alert("Correct Answer: " + q.correct);
 
-        // 👉 yahan tum khud check lagao (userAnswer === q.correct)
+        
     }
 
 } else {
